@@ -80,3 +80,11 @@ youtube/**/*.bak-*
 
 # DOL OFLC wage-data zips + full exports (fetched by scripts/contrib/2026fa/mayank-1024-wage-level-floor/fetch-oflc.sh)
 /data/dol/oflc/raw/
+search/private-notes.md
+
+# Keep search files private except the required assignment artifacts
+/search/*
+!/search/resume.json
+!/search/profile.yml
+!/search/gaps.md
+/search/private-notes.md

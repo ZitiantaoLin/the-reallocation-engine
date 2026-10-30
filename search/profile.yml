@@ -1,0 +1,150 @@
+# Personal search profile. Null = not yet known or not supplied (not "flexible").
+# Candidate statements and document-verified facts are kept in separate fields.
+document_status: final
+updated_date: '2026-10-29'
+candidate:
+  name: Zitiantao Lin
+target_role:
+  primary: HCI / AR/VR Research Engineer — Visual Perception and Interaction
+  focus:
+  - Human-computer interaction and user evaluation
+  - AR/VR interaction systems and prototyping
+  - 'Visual perception for interaction: gaze, cross-view mapping, and multimodal input'
+  secondary:
+  - XR Interaction Engineer
+  - Research Software Engineer — HCI and XR
+  description: 'Develop and evaluate HCI and AR/VR systems that connect visual perception with interactive interfaces:
+    gaze-based input, cross-view mapping, multimodal interaction, and XR prototypes, combining implementation with
+    user studies.'
+  excluded_role_types:
+  - Apple-native roles requiring Swift, SwiftUI, or ARKit as the primary development stack
+  confirmation_date: '2026-10-29'
+work_preferences:
+  employment_type: null
+  desired_start_month: 2027-07
+  exact_start_date: null
+  start_condition: Required work authorization must be valid.
+geography:
+  country: United States
+  preferred_regions:
+  - Greater Boston, Massachusetts
+  open_to_remote: true
+  other_acceptable_locations: null
+  willing_to_relocate: null
+visa:
+  type: F-1
+  type_basis: Candidate-reported; immigration documents not inspected.
+  opt_started: false
+  opt_application_status: unknown
+  opt_start_date: null
+  opt_end_date: null
+  current_work_authorization_type: null
+  current_work_authorization_end_date: null
+  stem_degree_eligible: null
+  stem_eligibility_status: uncertain_for_screening_DSO_confirmation_source_not_recorded
+  stem_degree_eligible_candidate_reported: true
+  stem_candidate_confirmation_date: '2026-10-29'
+  stem_confirmed_by_dso: null
+  stem_extension_approved: null
+  unemployment_days_used: null
+  unemployment_days_status: not_applicable_before_OPT_start
+  buffer_target_days: 80
+  buffer_target_basis: Course-recommended 80 days, below the 90-day OPT unemployment ceiling. Accepted by the candidate
+    on 2026-10-29.
+  notes:
+  - July 2027 is a desired start month, not an approved OPT date.
+  - The candidate states the degree is STEM-eligible; the screening field stays null until a DSO confirmation source
+    is recorded.
+needs_sponsorship: true
+sponsorship_gate:
+  required: true
+  needed_at_job_start: null
+  future_sponsorship_needed: true
+  owner_statement: I need employer visa sponsorship.
+  screening_rules:
+  - Skip positions that state sponsorship is unavailable now or in the future.
+  - Keep positions with unclear sponsorship policy pending verification.
+  - Verify sponsorship for the specific position; company history alone is insufficient.
+  - For a planned STEM OPT extension, verify employer E-Verify participation and I-983 support.
+industry:
+  company_stage_preference: any
+  company_stage_basis: No company-size restriction; position-specific sponsorship (sponsorship_gate) is the deciding
+    filter. Accepted by the candidate on 2026-10-29.
+  additional_hard_exclusions: none
+  additional_hard_exclusions_basis: No industry exclusions beyond the Apple-native role-type exclusion. Accepted
+    by the candidate on 2026-10-29.
+  target_sectors:
+  - HCI and Interactive Computing
+  - AR/VR and Spatial Interaction
+  - Assistive Technology and Accessibility
+  - Robotics
+review_notes:
+- Target direction, Boston preference, remote acceptance, July 2027 desired start, sponsorship need, 80-day buffer,
+  any company stage, and no extra exclusions are confirmed inputs.
+- 'Still unknown: exact start day, relocation, employment type, approved OPT dates, and DSO confirmation of STEM
+  eligibility.'
+- Visual perception means interaction applications; core eye-tracker estimation, SLAM, reconstruction, or rendering
+  expertise is not claimed.
+reference_sources:
+- title: Northeastern OGS — Applying For F-1 Post-Completion OPT
+  url: https://international.northeastern.edu/ogs/employment/off-campus-employment/applying-for-post-completion-opt-f-1/
+  checked_date: '2026-10-29'
+- title: Northeastern OGS — Applying for the F-1 STEM OPT Extension
+  url: https://international.northeastern.edu/ogs/employment/working-after-graduation/24-stem-opt/
+  checked_date: '2026-10-29'
+revision_history:
+- date: '2026-10-29'
+  field: target_role
+  previous_primary: Robotics Software Engineer
+  new_primary: HCI Research Engineer
+  reason: 'Candidate requested eye-gaze and HCI research options beyond robotics, then accepted the proposed target
+    direction. Robotics interaction and related software work remain secondary.
+
+    '
+- date: '2026-10-29'
+  field: target_role and industry.proposed_sectors
+  previous_primary: HCI Research Engineer
+  new_primary: HCI / AR/VR Research Engineer — Visual Perception and Interaction
+  reason: 'Candidate requested HCI + AR/VR + vision as the main direction. Updated the focus, related role titles,
+    and sectors accordingly. This describes job-search targets, not newly verified skills.
+
+    '
+- date: '2026-10-29'
+  field: visa.stem_degree_eligible
+  previous_value: true
+  new_value: null
+  reason: 'The assignment verification checklist explicitly requires uncertain status until DSO confirmation. Retained
+    the candidate''s positive statement separately without treating it as a verified scorer gate.
+
+    '
+- date: '2026-10-29'
+  field: visa.stem_degree_eligible
+  previous_value: null
+  new_value: true
+  reason: 'Candidate explicitly stated that eligibility has now been confirmed and requested this update. Recorded
+    the candidate confirmation without inventing a specific confirming office, document, or OPT approval.
+
+    '
+- date: '2026-10-29'
+  field: document_status, confirmed target fields, platform scope, and visa.stem_degree_eligible
+  reason: Finalized the submission status and accepted search rules, recorded the Apple-native role exclusion, and
+    separated candidate-reported STEM degree eligibility from the DSO-dependent screening field. The screening field
+    changed from true to null under the assignment rule because no DSO confirmation source was recorded. Historical
+    eligibility revisions remain preserved.
+- date: '2026-10-29'
+  field: visa.buffer_target_days, industry.company_stage_preference, industry.additional_hard_exclusions
+  previous_value: null
+  new_value: 80 / any / none
+  reason: 'Assignment Q2 and Q4 ask for these values explicitly; leaving them null read as unanswered. The candidate
+    accepted the course-recommended 80-day buffer, no company-size restriction, and no additional industry exclusions.
+
+    '
+- date: '2026-10-29'
+  field: target_role.secondary, industry.target_sectors
+  previous_value: 5 secondary roles / 7 sectors
+  new_value: 2 secondary roles / 4 sectors
+  reason: Narrowed so the fit score cannot match almost any role. Removed the duplicate "XR / AR / VR" sector and
+    folded vision and interactive-AI work into the primary focus. Accepted by the candidate on 2026-10-29.
+- date: '2026-10-29'
+  field: visa notes, review_notes
+  reason: Consolidated repeated caveats; no field value changed.

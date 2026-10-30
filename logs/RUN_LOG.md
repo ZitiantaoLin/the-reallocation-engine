@@ -80,3 +80,73 @@ decisions stand; only their printed justifications under-explained them.
 
 ### 2026-10-21 — ms-is-swe-opt-shortlist · Mode Build sample run
 Recipe `ms-is-swe-opt-shortlist` v0.2.0 (RUNNABLE-SAMPLE; 4 TODOs open, all proposed additions outside the run). Inputs: `course/2026fa/submissions/Vrajesh-works/mode-build/postings-2026-10-21.json` (12 entries), `--as-of 2026-10-21 --opt-start 2027-01-15` (placeholder dates), 80 Days CSV sha256 `eccdee2a…6270` (30,369 rows, newest funding 2025-09-26, 390 days before the as-of date). Outputs: `mode-build/runs/shortlist-log.json`, `shortlist-report.md`, scorer `role-scores.json/.md`. Result: `3/12 scored · Apply 1 · Consider 0 · Skip 2 (skip 67%)`; 2 excluded by a human (citizenship, clearance); 1 opt-bridge-open; 2 not-in-csv; 4 no-posting network targets. `npm run ats:liveness`: 6 active, 1 expired (Intuit, HTTP 404; company not in CSV so no decision changed). **Defect:** it printed Cohere Health active, but the student opened the page ("no longer open"); Greenhouse redirects removed jobs to the board with HTTP 200. Cohere typed `dead` by a person and the run redone (first run: Apply 1 · Consider 1 · Skip 1). Engine script not changed; defect not yet reported upstream. Break attempts: dead posting → Skip/network; `--as-of` after window → all Skip; impossible date and tracked out-dir → exit 2. 17 tests pass; `npm run verify` passes. **Gate G4:** Vrajesh Mathurbhai Nasit reopened the Verkada and Motion Recruitment postings on 2026-10-21 and confirmed both live (stated in session; the program's JSON `human_gate` field is unchanged). Open: unscored dead postings are not flagged; data is 390 days old; "entry-level" unverifiable; funding not a scorer input.
+
+
+## 2026-10-29 — Personal Layer Setup and Verification
+
+**Course:** INFO 7375 — Computational Skepticism for AI  
+**Student:** Zitiantao Lin
+
+### 1. What was built
+
+- `search/resume.json` — structured, attested record (`attested: true`, `attested_date: 2026-10-29`) with per-entry provenance and a correction history.
+- `search/profile.yml` — target role, visa/timeline constraints, geography, industry preferences, and an explicit sponsorship gate.
+- `search/gaps.md` — three gaps, each tied to official postings and O\*NET 15-1252.00, with a deliverable and a verifiable closing condition; one deleted row and one row rewritten in my own words.
+- `AI_USE_DISCLOSURE.md` — tools used, what they did, and what required my knowledge.
+
+The gap deliverables (case study, runtime report, test/release package) are future work. Nothing from `search/private-notes.md` is in this log.
+
+### 2. Three attestation errors corrected in resume.json
+
+| ID | Wrong value | Corrected value | How it was caught |
+| --- | --- | --- | --- |
+| `correction-01` | Next Play start August 2026 | September 2026, ongoing | I supplied the actual month. |
+| `correction-04` | GazeCastGrasp "2025 – Present" (ongoing) | Ended in 2025 | I corrected the status. |
+| `correction-05` | Study comparator "keyboard/joystick" | Keyboard only | AI found the mismatch with the [public manuscript, §4.1](https://zitiantaolin.github.io/assets/pdf/GazeCastGrasp.pdf); I checked and confirmed it. |
+
+All three errors were in my own CV and carried into the JSON. Separately, the extraction itself introduced an error: it assigned RaycastGrasp full 2025 start/end dates and a completed status from a year-only CV label; this was removed (`correction-02`, found in AI self-review). A later source check also changed the GazeCastGrasp participant count from 15 to 14 graduate students per manuscript §5.1 (`correction-06`). Neither is counted among the three.
+
+### 3. Top gap: G3 — XR testing and reproducible release
+
+**Evidence:** FieldAI (J1) requires repeatable testing and deployment of reliable, maintainable interaction applications; Axon (J3, senior) and O\*NET 15-1252.00 ("develop or direct software system testing or validation procedures"; "coordinate installation of software system") support it.  
+**What I have:** a GazeCastGrasp MR prototype and study, and web feature testing at Next Play, but no XR test package another person can install and reproduce.  
+**Plan:** test target selection, cancel/reset, input expiration, and reconnection on one prototype; document expected/actual results and steps; ship test code, procedures, results, an installable build, and run instructions; label automated vs. manual tests.  
+**Close when:** another person can install the build and repeat the checks.
+
+This row is in my own words (Chinese original preserved in `gaps.md`).
+
+### 4. Row killed and why
+
+**Deleted: Apple-native (Swift/SwiftUI/ARKit) gap.** The agent generated it before knowing my platform scope, and it had no posting behind it: the demand signal was the agent's generalization about XR roles. I do not target Apple-native roles; my XR stack is Unity/OpenXR. The exclusion is now in `profile.yml`.
+
+I also corrected an earlier G2 that implied I had no gaze/vision evaluation experience; I had already done prediction-accuracy comparison and failure analysis. G2 now targets runtime timing instead.
+
+### 5. profile.yml fields corrected from the agent's draft
+
+- **`target_role.primary`:** robotics-software focus → HCI / AR/VR Research Engineer — Visual Perception and Interaction. Secondary roles cut from five to two and sectors from seven to four so the fit score stays specific.
+- **`visa.stem_degree_eligible`:** I stated the degree is STEM-eligible, but no DSO confirmation source is recorded, so the screening field is `null` (uncertain) and my statement is kept in `stem_degree_eligible_candidate_reported: true`.
+- **Q2/Q4 fields left null in the draft:** `buffer_target_days: 80`, `company_stage_preference: any`, `additional_hard_exclusions: none`.
+
+### 6. Verification check
+
+| Question | Answer |
+| --- | --- |
+| **resume.json:** is every job traceable; did the agent promote a title, extend a date, or add a skill? | Each entry records its source (CV, my confirmation, or the public manuscript). No title was promoted and no skill added; proficiency is left null. The agent did extend one timeline (RaycastGrasp), which was removed. Traceability here means provenance to my CV and statements; offer letters, references, and credential documents were not inspected. |
+| **profile.yml:** do visa fields reflect documents or hopes? | OPT has not started and approved dates are unknown (null). July 2027 is a desired start month, not an authorization date. STEM eligibility is marked uncertain pending DSO confirmation. |
+| **gaps.md:** does every demand signal cite something real? | Every row cites an official posting (checked 2026-10-29), and the source table maps O\*NET 15-1252.00 tasks to each row. The one row whose demand signal was the agent's own inference (Apple-native) was deleted. Axon is cited as a senior reference, not an eligibility claim. |
+
+### 7. Privacy and file checks
+
+Run by me on Windows in `/f/INFO7375-8/the-reallocation-engine`:
+
+```text
+.gitignore:90:/search/private-notes.md  search/private-notes.md
+error: pathspec 'search/private-notes.md' did not match any file(s) known to git
+Did you forget to 'git add'?
+ M .gitignore
+?? search/gaps.md
+?? search/profile.yml
+?? search/resume.json
+```
+
+`private-notes.md` is ignored and not in the index (the pathspec error is the expected result for an untracked path). `git check-ignore -v logs/RUN_LOG.md` returned no match, so the log is tracked.

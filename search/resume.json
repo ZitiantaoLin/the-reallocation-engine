@@ -1,0 +1,1371 @@
+{
+  "attested": true,
+  "attested_date": "2026-10-29",
+  "attestation_note": "Three factual record errors reviewed and corrected: Next Play start month 2026-08 to 2026-09; GazeCastGrasp ongoing status to ended in 2025; GazeCastGrasp study comparator keyboard/joystick to keyboard only. All three incorrect descriptions were present in the supplied CV and carried into the structured record. The comparator discrepancy was located with AI assistance, checked against the public manuscript Section 4.1, and explicitly confirmed by the candidate. Separately, the extraction itself introduced an unsupported inference: it assigned RaycastGrasp a full 2025 start/end and a completed status from a year-only CV label; this was caught and removed (correction-02). RoboJudge submission confirmation is not counted among these three. An additional source review corrected the GazeCastGrasp participant count from 15 to 14 and specified the reported graduate-student population; this is recorded separately as correction-06.",
+  "extraction_status": "owner_reviewed",
+  "source": {
+    "type": "user_supplied_latex_cv_text",
+    "filename": "粘贴的文本 (1)(20261028-200823).txt",
+    "local_pdf_reference": "search/resume-original.pdf (kept local, not committed)",
+    "local_pdf_compared_with_extraction": true,
+    "note": "Initially extracted from the candidate-supplied full CV text. During the final-file review, the assistant read the uploaded resume-original.pdf and compared its text and rendered pages with the JSON. The original CV was preserved as the historical source; later corrections are recorded separately.",
+    "local_pdf_check_date": "2026-10-29",
+    "local_pdf_check_scope": "Uploaded resume-original.pdf inspected as text and rendered pages and compared with the structured record; this verifies the extraction source, not the underlying employment or credential claims."
+  },
+  "personal": {
+    "name": "Zitiantao Lin",
+    "email": "lin.ziti@northeastern.edu",
+    "website": "https://zitiantaolin.github.io",
+    "github": "https://github.com/ZitiantaoLin",
+    "google_scholar": "https://scholar.google.com/citations?user=IqmXvv8AAAAJ"
+  },
+  "education": [
+    {
+      "id": "edu-01",
+      "institution": "Northeastern University",
+      "location": "Boston, MA",
+      "degree": "Master of Science in Information Systems",
+      "start_date": "2025-01",
+      "end_date": "2027-05",
+      "end_date_status": "expected",
+      "status": "in_progress",
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "EDUCATION",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "id": "edu-02",
+      "institution": "Civil Aviation Flight University of China",
+      "location": "Sichuan, China",
+      "degree": "Bachelor of Engineering",
+      "field": "Information and Computing Science",
+      "start_date": "2020-09",
+      "end_date": "2024-07",
+      "status": "completed_as_reported_in_cv",
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "EDUCATION",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    }
+  ],
+  "experience": [
+    {
+      "id": "exp-01",
+      "organization": "CRAFT Lab, Northeastern University",
+      "title": "Graduate Research Assistant",
+      "start_date": "2025-02",
+      "end_date": null,
+      "ongoing": true,
+      "highlights": [
+        "Study how observable behavior, including gaze and visual attention, can inform interactive systems’ responses to people during physical tasks.",
+        "Collaborate on research spanning interactive-system design, multimodal perception, prototype implementation, and empirical evaluation."
+      ],
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH EXPERIENCE / CRAFT Lab",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation",
+      "advisor": "Prof. Yang Ye"
+    },
+    {
+      "id": "exp-02",
+      "organization": "Northeastern University",
+      "title": "Teaching Assistant",
+      "start_date": "2026-01",
+      "end_date": "2026-04",
+      "ongoing": false,
+      "highlights": [
+        "Supported graduate students with Python programming, data-processing workflows, debugging, and code review."
+      ],
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "TEACHING AND PROFESSIONAL EXPERIENCE / Teaching Assistant",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation",
+      "course_code": "INFO 6105",
+      "course_name": "Data Science Engineering Methods"
+    },
+    {
+      "id": "exp-03",
+      "organization": "Next Play Games Inc.",
+      "title": "Software Development Intern",
+      "start_date": "2026-09",
+      "end_date": null,
+      "ongoing": true,
+      "highlights": [
+        "Develop and test web application features for a sports and fitness platform.",
+        "Collaborate on interface, data-model, and authorization requirements for class-management workflows."
+      ],
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "TEACHING AND PROFESSIONAL EXPERIENCE / Next Play Games Inc.",
+          "owner_verified": false,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection.",
+          "note": "Source CV lists August 2026; the candidate corrected the actual start month to September 2026. The source is retained as provenance, not as support for the corrected month."
+        },
+        {
+          "source": "candidate_correction_in_conversation",
+          "date": "2026-10-28",
+          "statement": "Started at Next Play in September 2026 and is still working there.",
+          "owner_verified": true,
+          "independent_private_document_check_performed": false
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation",
+      "location": "Remote, United States"
+    },
+    {
+      "id": "exp-04",
+      "organization": "Beijing Sohu New Media Information Technology Co., Ltd.",
+      "title": "Software Engineering / Product Operations Intern",
+      "start_date": "2021-03",
+      "end_date": "2021-08",
+      "ongoing": false,
+      "highlights": [
+        "Supported mobile application development and analysis of user behavior for product improvement."
+      ],
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "TEACHING AND PROFESSIONAL EXPERIENCE / Beijing Sohu",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-01",
+      "name": "EyeSpan — Cross-View Gaze and Intention Modeling",
+      "start_date": "2026",
+      "end_date": null,
+      "ongoing": true,
+      "role_as_reported": "First-author research; submitted to ACM CHI 2027",
+      "highlights": [
+        "Initiated the research question and led the design and implementation of a system relating a person’s gaze in a first-person view to objects visible from an external viewpoint.",
+        "Developed visual-correspondence and temporal-modeling components to examine how the object of attention changes over time.",
+        "Investigate the distinction between detecting a behavioral signal and interpreting what a person intends the system to do."
+      ],
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH EXPERIENCE / EyeSpan",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation",
+      "date_precision": "year",
+      "linked_publication_id": "pub-03"
+    },
+    {
+      "id": "proj-02",
+      "name": "RaycastGrasp — Wearable Eye-Gaze Interaction for Robotic Manipulation",
+      "start_date": null,
+      "end_date": null,
+      "ongoing": null,
+      "role_as_reported": "Co-first-author paper; ICIR 2025 Best Paper Award",
+      "highlights": [
+        "Co-designed and developed a gaze-guided interface through which users could indicate real-world objects for robotic manipulation.",
+        "Integrated wearable gaze input, object recognition, and augmented visual feedback to support target selection and communicate the system’s interpretation to the user.",
+        "Co-authored the paper and released project code and demonstration materials."
+      ],
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH EXPERIENCE / RaycastGrasp",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_with_unspecified_project_timeline",
+      "date_precision": "year",
+      "linked_publication_id": "pub-01",
+      "url": "https://github.com/ZitiantaoLin/RaycastGrasp-Eye-Gaze-Interaction-with-Wearable-Devices-for-Robotic-Manipulation",
+      "year": 2025,
+      "timeline_note": "The source associates this work with 2025 but does not specify an actual project start date, end date, or current activity status. No completion state is inferred."
+    },
+    {
+      "id": "proj-03",
+      "name": "GazeCastGrasp — Mixed-Reality Eye-Gaze Interaction",
+      "start_date": "2025",
+      "end_date": "2025",
+      "ongoing": false,
+      "role_as_reported": "Co-first-author manuscript",
+      "highlights": [
+        "Built a mixed-reality interaction prototype connecting a wearable eye-gaze interface, visual perception, and a Franka robotic arm.",
+        "Implemented gaze-based input and visual feedback for object manipulation tasks.",
+        "Conducted a study comparing gaze-based interaction with keyboard control; evaluated task performance and user experience."
+      ],
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH EXPERIENCE / GazeCastGrasp",
+          "owner_verified": false,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection.",
+          "note": "The source CV incorrectly lists 2025 -- Present and keyboard/joystick control. The candidate corrected the ending to 2025 and confirmed keyboard-only control after review of manuscript Section 4.1. The source is retained as provenance, not support for the superseded descriptions. Its participant count of 15 is also superseded by the public manuscript Section 5.1, which reports 14 graduate-student participants."
+        },
+        {
+          "source": "candidate_correction_in_conversation",
+          "date": "2026-10-29",
+          "statement": "GazeCastGrasp also ended in 2025; the candidate identified the ongoing status as an error.",
+          "owner_verified": true,
+          "independent_private_document_check_performed": false
+        },
+        {
+          "source": "author_hosted_public_manuscript",
+          "url": "https://zitiantaolin.github.io/assets/pdf/GazeCastGrasp.pdf",
+          "section": "4.1 Experimental Design",
+          "pdf_page": 5,
+          "checked_date": "2026-10-29",
+          "claim": "The experiment compares gaze-driven GazeCastGrasp with keyboard-controlled grasping; joystick is not an experimental condition in the described study.",
+          "checked_by": "AI-assisted source review",
+          "owner_verified": true,
+          "owner_confirmation_date": "2026-10-29",
+          "owner_statement": "Follow the public manuscript: the two experimental conditions are gaze interaction and keyboard control."
+        },
+        {
+          "source": "author_hosted_public_manuscript",
+          "url": "https://zitiantaolin.github.io/assets/pdf/GazeCastGrasp.pdf",
+          "section": "5.1 Participants",
+          "pdf_page": 6,
+          "checked_date": "2026-10-29",
+          "claim": "The main study recruited 14 participants; all were graduate students.",
+          "checked_by": "AI-assisted source comparison during the final-file review",
+          "supports_fields": [
+            "study_participants",
+            "study_population"
+          ],
+          "review_context": "Candidate requested revision of resume.json after this discrepancy was reported. This does not claim an unaided discovery by the candidate."
+        }
+      ],
+      "verification_status": "owner_corrected_in_conversation",
+      "date_precision": "year",
+      "study_participants": 14,
+      "study_population": "graduate-student adult participants",
+      "linked_publication_id": "pub-05",
+      "timeline_note": "Candidate confirmed that the project ended in 2025; the ending month/day was not supplied. Project activity and manuscript preparation/submission status are separate; no manuscript status is inferred from project completion.",
+      "study_control_conditions": [
+        "keyboard_control"
+      ],
+      "study_treatment_conditions": [
+        "gaze_based_MR_interaction"
+      ],
+      "study_participants_basis": {
+        "source": "author_hosted_public_manuscript",
+        "url": "https://zitiantaolin.github.io/assets/pdf/GazeCastGrasp.pdf",
+        "section": "5.1 Participants",
+        "pdf_page": 6,
+        "checked_date": "2026-10-29",
+        "count_scope": "Main-study recruitment total reported in the manuscript",
+        "note": "The manuscript reports 14 recruited participants, all graduate students. No undocumented participant exclusion or recruitment-to-analysis flow is inferred."
+      }
+    },
+    {
+      "id": "proj-04",
+      "name": "BEAR — Embodied Multimodal Model Evaluation",
+      "start_date": "2025-06",
+      "end_date": "2025-09",
+      "ongoing": false,
+      "role_as_reported": "Collaborative research; ICML 2026",
+      "highlights": [
+        "Contributed to a collaborative evaluation of multimodal language models across embodied skills.",
+        "Conducted data auditing and model evaluation runs; supported analysis of model performance and failure patterns."
+      ],
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH EXPERIENCE / BEAR",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation",
+      "url": "https://bear-official66.github.io/",
+      "linked_publication_id": "pub-02"
+    },
+    {
+      "id": "proj-05",
+      "name": "Undergraduate Research, Civil Aviation Flight University of China",
+      "start_date": "2022-02",
+      "end_date": "2023-11",
+      "ongoing": false,
+      "role_as_reported": "Project Leader",
+      "highlights": [
+        "Led time-series forecasting research using LSTM and ARIMA for civil aviation passenger traffic.",
+        "Evaluated model performance across different periods and collaborated on a campus mini-program for students."
+      ],
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH EXPERIENCE / Undergraduate Research",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation",
+      "program": "Sichuan Provincial Key Undergraduate Research Program"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Interactive-system prototyping",
+      "category": "Research and evaluation",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Research and evaluation",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Laboratory user-study design and execution",
+      "category": "Research and evaluation",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Research and evaluation",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Task-performance and user-experience evaluation",
+      "category": "Research and evaluation",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Research and evaluation",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Data auditing",
+      "category": "Research and evaluation",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Research and evaluation",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Model evaluation",
+      "category": "Research and evaluation",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Research and evaluation",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Python",
+      "category": "Programming and analysis",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Programming and analysis",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "C#",
+      "category": "Programming and analysis",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Programming and analysis",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Java",
+      "category": "Programming and analysis",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Programming and analysis",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "C++",
+      "category": "Programming and analysis",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Programming and analysis",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "SQL",
+      "category": "Programming and analysis",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Programming and analysis",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "MATLAB",
+      "category": "Programming and analysis",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Programming and analysis",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "PyTorch",
+      "category": "Programming and analysis",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Programming and analysis",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Statistical analysis",
+      "category": "Programming and analysis",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Programming and analysis",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Time-series forecasting",
+      "category": "Programming and analysis",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Programming and analysis",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Eye tracking",
+      "category": "Interaction and perception",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Interaction and perception",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Gaze-based interaction",
+      "category": "Interaction and perception",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Interaction and perception",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Unity",
+      "category": "Interaction and perception",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Interaction and perception",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "OpenXR",
+      "category": "Interaction and perception",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Interaction and perception",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Mixed-reality interface design",
+      "category": "Interaction and perception",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Interaction and perception",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Computer vision",
+      "category": "Interaction and perception",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Interaction and perception",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Cross-view visual correspondence",
+      "category": "Interaction and perception",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Interaction and perception",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Multimodal-model evaluation",
+      "category": "Interaction and perception",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Interaction and perception",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "ROS",
+      "category": "Systems and devices",
+      "proficiency": null,
+      "experience_description_as_reported": "Candidate explicitly confirmed practical use.",
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Systems and devices",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        },
+        {
+          "source": "candidate_confirmation_in_conversation",
+          "date": "2026-10-28",
+          "statement": "Confirmed practical use of both ROS and ROS2.",
+          "owner_verified": true
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "ROS2",
+      "category": "Systems and devices",
+      "proficiency": null,
+      "experience_description_as_reported": "Candidate explicitly confirmed practical use.",
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Systems and devices",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        },
+        {
+          "source": "candidate_confirmation_in_conversation",
+          "date": "2026-10-28",
+          "statement": "Confirmed practical use of both ROS and ROS2.",
+          "owner_verified": true
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Docker",
+      "category": "Systems and devices",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Systems and devices",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Linux",
+      "category": "Systems and devices",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Systems and devices",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Franka Panda",
+      "category": "Systems and devices",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Systems and devices",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Tobii Pro Glasses 2",
+      "category": "Systems and devices",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Systems and devices",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Intel RealSense D455",
+      "category": "Systems and devices",
+      "proficiency": null,
+      "experience_description_as_reported": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Systems and devices",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "CUDA",
+      "category": "Systems and devices",
+      "proficiency": null,
+      "experience_description_as_reported": "hands-on experience",
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Systems and devices",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "TensorRT",
+      "category": "Systems and devices",
+      "proficiency": null,
+      "experience_description_as_reported": "hands-on experience",
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "RESEARCH METHODS AND TECHNICAL SKILLS / Systems and devices",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    }
+  ],
+  "certifications": [],
+  "publications": [
+    {
+      "id": "pub-01",
+      "title": "RaycastGrasp: Eye-Gaze Interaction with Wearable Devices for Robotic Manipulation",
+      "authors": [
+        "Zitiantao Lin",
+        "Yongpeng Sang",
+        "Yang Ye"
+      ],
+      "year": 2025,
+      "venue": "2025 IEEE 4th International Conference on Intelligent Reality (ICIR)",
+      "status": "peer_reviewed_conference_paper_as_reported",
+      "url": "https://arxiv.org/abs/2510.22113",
+      "doi": null,
+      "equal_contribution_authors": [
+        "Zitiantao Lin",
+        "Yongpeng Sang"
+      ],
+      "award_as_reported": "Best Paper Award",
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "PUBLICATIONS AND MANUSCRIPTS / Peer-Reviewed Conference Papers",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "id": "pub-02",
+      "title": "BEAR: Dissecting Embodied Abilities in Multimodal Language Models through Skill-level Evaluation and Diagnosis",
+      "authors": [
+        "Yu Qi",
+        "Haibo Zhao",
+        "Ziyu Guo",
+        "Siyuan Ma",
+        "Ziyan Chen",
+        "Yaokun Han",
+        "Renrui Zhang",
+        "Zitiantao Lin",
+        "Yizhe Zhu",
+        "Shiji Xin",
+        "Yijian Huang",
+        "Boce Hu",
+        "Kai Cheng",
+        "Jiayi Zhang",
+        "Peiheng Wang",
+        "Jiazheng Liu",
+        "Wenqing Wang",
+        "Yiran Qin",
+        "Haojie Huang",
+        "Lawson L.S. Wong"
+      ],
+      "year": 2026,
+      "venue": "Proceedings of the 43rd International Conference on Machine Learning",
+      "series": "Proceedings of Machine Learning Research",
+      "volume": 306,
+      "status": "peer_reviewed_conference_paper_as_reported",
+      "url": "https://proceedings.mlr.press/v306/qi26p.html",
+      "doi": null,
+      "equal_contribution_authors": [
+        "Yu Qi",
+        "Haibo Zhao"
+      ],
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "PUBLICATIONS AND MANUSCRIPTS / Peer-Reviewed Conference Papers",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "id": "pub-03",
+      "title": "EyeSpan: Temporally-Grounded Cross-View Gaze Mapping for Assistive Robotics",
+      "authors": [
+        "Zitiantao Lin",
+        "Handan Liu",
+        "Yang Ye"
+      ],
+      "year": null,
+      "target_venue": "ACM CHI 2027",
+      "status": "submitted",
+      "url": null,
+      "doi": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "PUBLICATIONS AND MANUSCRIPTS / Submitted Manuscripts",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation",
+      "acceptance_decision": null,
+      "decision_note": "Submission is recorded; an acceptance or rejection decision was not supplied."
+    },
+    {
+      "id": "pub-04",
+      "title": "RoboJudge: Multimodal Language Models as Judges for Embodied Video Generation",
+      "authors": [
+        "Siyuan Ma",
+        "Yu Qi",
+        "Cheng Ye",
+        "Ruotian Peng",
+        "Xinyi Xu",
+        "Zitiantao Lin",
+        "Zedong Cai",
+        "Yijian Huang",
+        "Weiyang Liu",
+        "Siyuan Wang",
+        "Yandong Wen"
+      ],
+      "year": null,
+      "target_venue": "ICLR 2027",
+      "status": "submitted",
+      "url": null,
+      "doi": null,
+      "equal_contribution_authors": [
+        "Siyuan Ma",
+        "Yu Qi"
+      ],
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "PUBLICATIONS AND MANUSCRIPTS / Submitted Manuscripts",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        },
+        {
+          "source": "candidate_confirmation_in_conversation",
+          "date": "2026-10-29",
+          "statement": "RoboJudge has been submitted to ICLR 2027.",
+          "owner_verified": true,
+          "counts_as_new_status_change": false,
+          "independent_submission_system_check_performed": false
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation",
+      "acceptance_decision": null,
+      "decision_note": "Submission is recorded; an acceptance or rejection decision was not supplied."
+    },
+    {
+      "id": "pub-05",
+      "title": "GazeCastGrasp: MR-Enabled Eye-Gaze Interaction for Assistive Robotic Manipulation",
+      "authors": [
+        "Zitiantao Lin",
+        "Yongpeng Sang",
+        "Xiao Hu",
+        "Yang Ye"
+      ],
+      "year": null,
+      "status": "in_preparation_as_reported",
+      "url": "https://zitiantaolin.github.io/assets/pdf/GazeCastGrasp.pdf",
+      "doi": null,
+      "equal_contribution_authors": [
+        "Zitiantao Lin",
+        "Yongpeng Sang"
+      ],
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "PUBLICATIONS AND MANUSCRIPTS / Manuscript in Preparation",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        },
+        {
+          "source": "author_hosted_public_manuscript",
+          "url": "https://zitiantaolin.github.io/assets/pdf/GazeCastGrasp.pdf",
+          "checked_date": "2026-10-29",
+          "supports_fields": [
+            "title",
+            "authors",
+            "equal_contribution_authors",
+            "url"
+          ],
+          "checked_by": "AI-assisted source review",
+          "note": "Public availability and manuscript metadata are supported by this source. The preparation status is retained from the candidate-reviewed CV; public availability does not establish submission, acceptance, or publication."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "id": "pub-06",
+      "title": "Predictions and Research about Global Warming Based on ARIMA Models",
+      "authors": [
+        "Zitiantao Lin",
+        "Junxian Kuang",
+        "Wenhua Li"
+      ],
+      "year": 2023,
+      "venue": "Academic Journal of Environment & Earth Science",
+      "volume": 5,
+      "issue": 3,
+      "pages": "42–48",
+      "status": "journal_publication_as_reported",
+      "doi": "10.25236/AJEE.2023.050307",
+      "url": "https://doi.org/10.25236/AJEE.2023.050307",
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "PUBLICATIONS AND MANUSCRIPTS / Earlier Publication",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Best Paper Award",
+      "issuer": "IEEE International Conference on Intelligent Reality (ICIR)",
+      "year": 2025,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "HONORS AND AWARDS",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    },
+    {
+      "name": "Second Prize",
+      "competition": "12th Asia-Pacific Regional Student Mathematical Modeling Competition (APMCM)",
+      "year": 2022,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "HONORS AND AWARDS",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    }
+  ],
+  "intellectual_property": [
+    {
+      "type": "computer_software_copyright",
+      "software_name": "Zhitie",
+      "software_type": "WeChat mini-program",
+      "registration_authority": "National Copyright Administration of the P.R.C.",
+      "ownership_as_reported": "sole copyright holder",
+      "registration_number": null,
+      "registration_date": null,
+      "evidence": [
+        {
+          "source": "user_supplied_full_cv",
+          "section": "HONORS AND AWARDS",
+          "owner_verified": true,
+          "verification_basis": "Candidate confirmation in this conversation; no independent private-document inspection."
+        }
+      ],
+      "verification_status": "owner_confirmed_in_conversation"
+    }
+  ],
+  "attestation_corrections": [
+    {
+      "id": "correction-01",
+      "category": "source_record_factual_correction",
+      "fields": [
+        "experience[2].start_date"
+      ],
+      "original_source_value": "2026-08",
+      "original_extraction_value": "2026-08",
+      "corrected_value": "2026-09",
+      "identified_by": "Zitiantao Lin",
+      "confirmed_by": "Zitiantao Lin",
+      "date": "2026-10-28",
+      "basis": "Candidate explicitly stated the actual start was in September and employment is ongoing.",
+      "attribution_note": "The extraction copied the August date from the supplied CV. This is a candidate correction to the source record, not a claim that the extractor invented the original month."
+    },
+    {
+      "id": "correction-02",
+      "category": "unsupported_extraction_inference_removed",
+      "fields": [
+        "projects[1].start_date",
+        "projects[1].end_date",
+        "projects[1].ongoing"
+      ],
+      "original_value": {
+        "start_date": "2025",
+        "end_date": "2025",
+        "ongoing": false
+      },
+      "corrected_value": {
+        "year": 2025,
+        "start_date": null,
+        "end_date": null,
+        "ongoing": null
+      },
+      "identified_by": "AI self-review",
+      "review_context": "Disclosed in the Chinese audit and included in the candidate's general acceptance of the reviewed record.",
+      "date": "2026-10-28",
+      "basis": "A year-only source label does not establish the full project duration or completion status.",
+      "attribution_note": "Not represented as an error independently discovered by the student."
+    },
+    {
+      "id": "correction-03",
+      "category": "submission_status_clarification",
+      "fields": [
+        "publications[2].status",
+        "publications[3].status"
+      ],
+      "original_value": "submitted_not_accepted_as_reported",
+      "corrected_value": "submitted",
+      "acceptance_decision": null,
+      "identified_by": "AI self-review",
+      "date": "2026-10-28",
+      "basis": "The source states submitted; an acceptance or rejection decision was not provided.",
+      "attribution_note": "One shared state-label clarification affecting two records; not counted as two student-discovered factual errors.",
+      "owner_followup_review": {
+        "date": "2026-10-29",
+        "by": "Zitiantao Lin",
+        "record_id": "pub-04",
+        "statement": "RoboJudge has been submitted to ICLR 2027.",
+        "current_value_already_correct": true,
+        "attribution_note": "The candidate now explicitly confirms the submission and regards the earlier label as a review issue. The original AI self-review attribution is retained; no claim is made that the current JSON said unsubmitted or rejected."
+      }
+    },
+    {
+      "id": "correction-04",
+      "category": "source_record_factual_correction",
+      "record_id": "proj-03",
+      "fields": [
+        "projects[2].end_date",
+        "projects[2].ongoing"
+      ],
+      "original_source_value": "2025 -- Present",
+      "original_extraction_value": {
+        "end_date": null,
+        "ongoing": true
+      },
+      "corrected_value": {
+        "end_date": "2025",
+        "ongoing": false
+      },
+      "identified_by": "Zitiantao Lin",
+      "confirmed_by": "Zitiantao Lin",
+      "date": "2026-10-29",
+      "basis": "The candidate explicitly stated that GazeCastGrasp also ended in 2025, in response to the project-review question.",
+      "attribution_note": "Student factual correction to an ongoing-state record copied from the supplied CV; distinct from the earlier AI correction of the RaycastGrasp timeline. No ending month/day is inferred."
+    },
+    {
+      "id": "correction-05",
+      "category": "source_record_factual_correction",
+      "record_id": "proj-03",
+      "fields": [
+        "projects[2].highlights[2]"
+      ],
+      "original_source_value": "Compared gaze-based interaction with keyboard/joystick control.",
+      "original_extraction_value": "Conducted a study comparing gaze-based interaction with keyboard/joystick control; evaluated task performance and user experience.",
+      "corrected_value": "Conducted a study comparing gaze-based interaction with keyboard control; evaluated task performance and user experience.",
+      "identified_by": "AI-assisted comparison of the source CV/JSON with the public manuscript",
+      "confirmed_by": "Zitiantao Lin",
+      "date": "2026-10-29",
+      "basis": {
+        "url": "https://zitiantaolin.github.io/assets/pdf/GazeCastGrasp.pdf",
+        "section": "4.1 Experimental Design",
+        "pdf_page": 5,
+        "finding": "Only gaze-based interaction and keyboard control are the experimental conditions."
+      },
+      "owner_confirmation": "Candidate explicitly instructed following the public manuscript and accepted this as the third factual correction.",
+      "attribution_note": "The supplied CV contained the inaccurate comparator and the extraction copied it. AI located the discrepancy; the candidate checked and confirmed the correction. No claim of unaided discovery or of an additional joystick experiment is made."
+    },
+    {
+      "id": "correction-06",
+      "category": "additional_source_record_factual_correction",
+      "record_id": "proj-03",
+      "fields": [
+        "projects[2].study_participants",
+        "projects[2].study_population"
+      ],
+      "original_source_value": {
+        "study_participants": 15,
+        "study_population": "general-population adult participants"
+      },
+      "original_extraction_value": {
+        "study_participants": 15,
+        "study_population": "general-population adult participants"
+      },
+      "corrected_value": {
+        "study_participants": 14,
+        "study_population": "graduate-student adult participants"
+      },
+      "identified_by": "AI-assisted comparison of the uploaded CV/JSON with the public manuscript",
+      "date": "2026-10-29",
+      "basis": {
+        "url": "https://zitiantaolin.github.io/assets/pdf/GazeCastGrasp.pdf",
+        "section": "5.1 Participants",
+        "pdf_page": 6,
+        "finding": "The manuscript reports 14 main-study participants, all graduate students."
+      },
+      "counts_toward_selected_three_attestation_errors": false,
+      "review_context": "The candidate requested revision of resume.json after the discrepancy was reported.",
+      "attribution_note": "The uploaded source CV says 15; the structured record is aligned with the cited manuscript. The original CV remains preserved as the historical extraction source. No undocumented excluded participant is invented."
+    }
+  ],
+  "extraction_notes": [
+    {
+      "topic": "source",
+      "note": "Source CV text, the subsequently inspected original CV PDF, public manuscript evidence, and candidate corrections are retained with distinct provenance. A comparison with the CV is not independent corroboration of employment or credentials."
+    },
+    {
+      "topic": "education",
+      "note": "The candidate explicitly confirmed Bachelor of Engineering, Information and Computing Science, and July 2024 graduation. Remaining education information was generally confirmed."
+    },
+    {
+      "topic": "experience",
+      "note": "Next Play start month was corrected by the candidate to September 2026 and ongoing employment was explicitly confirmed. Other listed experience was generally confirmed."
+    },
+    {
+      "topic": "project_overlap",
+      "note": "RaycastGrasp and GazeCastGrasp remain separate source entries; their relationship has not been specifically established. Do not count overlapping work twice."
+    },
+    {
+      "topic": "study_population",
+      "note": "The original CV reports 15 general-population adult participants. Following final source review, the current structured record follows public manuscript Section 5.1: 14 main-study participants, all graduate students. No clinical population or undocumented participant exclusion is inferred."
+    },
+    {
+      "topic": "date_precision",
+      "note": "Year-only dates remain year-only. RaycastGrasp retains year 2025 while unspecified timeline fields are null."
+    },
+    {
+      "topic": "publications",
+      "note": "Submitted and in-preparation manuscripts remain distinct from published papers. EyeSpan and RoboJudge are marked submitted without an inferred acceptance or rejection decision."
+    },
+    {
+      "topic": "skills",
+      "note": "The candidate explicitly confirmed use of ROS and ROS2; they are now separate entries. Other listed skills were generally confirmed, with proficiency left null."
+    },
+    {
+      "topic": "certifications",
+      "note": "No professional certification was listed. Software copyright remains separately classified as intellectual property."
+    },
+    {
+      "topic": "research_interests",
+      "note": "Declared research interests are not converted into completed experience or demonstrated skills; search goals belong in profile.yml."
+    },
+    {
+      "topic": "attestation",
+      "note": "Owner attestation includes the Next Play start month, GazeCastGrasp project ending, and keyboard-only study comparator. Correction attribution and manuscript evidence are retained. Earlier AI self-review and RoboJudge confirmation are separate, not substitutes for these three factual corrections. The subsequent participant-count/population correction is recorded as correction-06 and is not substituted for the original selected three."
+    }
+  ],
+  "attested_by": "Zitiantao Lin",
+  "owner_confirmation": {
+    "by": "Zitiantao Lin",
+    "date": "2026-10-28",
+    "method": "confirmation_in_conversation",
+    "scope": "Explicit confirmation of undergraduate degree, major, July 2024 graduation, September 2026 Next Play start and ongoing employment, use of ROS and ROS2, plus general confirmation of the remaining supplied record.",
+    "independent_private_document_check_performed": false
+  },
+  "confirmed_information": [
+    {
+      "category": "education_confirmation",
+      "record_id": "edu-02",
+      "confirmed_by": "Zitiantao Lin",
+      "date": "2026-10-28",
+      "confirmed_fields": {
+        "degree": "Bachelor of Engineering",
+        "field": "Information and Computing Science",
+        "end_date": "2024-07"
+      },
+      "counts_as_error_correction": false
+    },
+    {
+      "category": "skill_scope_confirmation",
+      "previous_entry": "ROS/ROS2",
+      "confirmed_entries": [
+        "ROS",
+        "ROS2"
+      ],
+      "confirmed_by": "Zitiantao Lin",
+      "date": "2026-10-28",
+      "counts_as_error_correction": false
+    },
+    {
+      "category": "publication_submission_confirmation",
+      "record_id": "pub-04",
+      "confirmed_by": "Zitiantao Lin",
+      "date": "2026-10-29",
+      "confirmed_fields": {
+        "target_venue": "ICLR 2027",
+        "status": "submitted"
+      },
+      "counts_as_new_factual_error_correction": false
+    },
+    {
+      "category": "experimental_condition_correction",
+      "record_id": "proj-03",
+      "confirmed_by": "Zitiantao Lin",
+      "date": "2026-10-29",
+      "confirmed_fields": {
+        "study_control_conditions": [
+          "keyboard_control"
+        ],
+        "study_treatment_conditions": [
+          "gaze_based_MR_interaction"
+        ]
+      },
+      "counts_as_error_correction": true,
+      "correction_id": "correction-05"
+    }
+  ],
+  "review_limitations": [
+    "Owner attestation is based on the candidate's statements in this conversation; private employment, degree, award and submission documents were not independently inspected.",
+    "The uploaded original CV PDF was inspected during the final-file review. It is an extraction source, not independent verification of the underlying employment, degree, award, or submission claims.",
+    "RaycastGrasp's precise project start/end dates and current activity status remain unspecified.",
+    "The relationship between RaycastGrasp and GazeCastGrasp was not specifically resolved; the two source entries are preserved without claiming that shared work represents independent achievements.",
+    "The GazeCastGrasp ending is confirmed only to year precision; manuscript status is not inferred from project completion.",
+    "The three selected attestation corrections fix factual errors already present in the supplied CV and carried into JSON. Their provenance is stated explicitly; the comparator was AI-assisted and owner-confirmed. This record does not claim the extractor invented those three errors, or that all discovery was unaided.",
+    "The participant count and population follow the public manuscript Section 5.1. Raw participant records were not inspected; no undocumented recruitment or exclusion history is asserted."
+  ],
+  "attestation_history": [
+    {
+      "date": "2026-10-28",
+      "note": "Candidate confirmed the record in conversation, corrected the Next Play start month from 2026-08 to 2026-09, and explicitly confirmed the undergraduate degree details and practical use of both ROS and ROS2. AI self-review also removed an unsupported project timeline inference and clarified submission-state labels. This does not claim three student-discovered import errors."
+    },
+    {
+      "date": "2026-10-29",
+      "note": "Owner reviewed three items: Next Play start month corrected from 2026-08 to 2026-09; GazeCastGrasp project corrected from ongoing to ended in 2025; RoboJudge submission to ICLR 2027 explicitly reconfirmed. The first two are student-reported factual corrections to the supplied source record. RoboJudge was already submitted in the current JSON after an earlier AI label clarification; it is not represented as a newly discovered missing submission or rejection error.",
+      "superseded_by": "Owner confirmation of the manuscript-based comparator correction on 2026-10-29."
+    },
+    {
+      "date": "2026-10-29",
+      "stage": "final_source_review",
+      "note": "After AI reported a mismatch between the uploaded CV/JSON and public manuscript Section 5.1, the candidate requested revision of resume.json. The current record follows the manuscript: 14 graduate-student participants. The original CV PDF was also inspected. This additional correction is separate from correction-01, correction-04, and correction-05.",
+      "correction_ids": [
+        "correction-06"
+      ]
+    }
+  ],
+  "owner_review_updates": [
+    {
+      "date": "2026-10-29",
+      "by": "Zitiantao Lin",
+      "scope": "Reaffirmed Next Play September 2026 start; corrected GazeCastGrasp to ended in 2025; reconfirmed RoboJudge submission to ICLR 2027.",
+      "independent_private_document_check_performed": false
+    },
+    {
+      "date": "2026-10-29",
+      "by": "Zitiantao Lin",
+      "scope": "Confirmed the public manuscript comparator: gaze interaction versus keyboard control only, without a joystick condition. Accepted the Next Play start month, GazeCastGrasp ending, and comparator as the three factual record corrections.",
+      "source_review_assistance": "AI located the comparator discrepancy; candidate confirmed it.",
+      "private_document_inspection_performed": false
+    }
+  ],
+  "attestation_correction_ids": [
+    "correction-01",
+    "correction-04",
+    "correction-05"
+  ],
+  "extraction_notes_skills": "Skills are listed as in the source CV and confirmed by the candidate; proficiency is left null rather than inferred."
+}
